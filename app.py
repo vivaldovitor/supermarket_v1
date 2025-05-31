@@ -17,7 +17,7 @@ app = dash.Dash(
 server = app.server
 
 
-df_data = pd.read_csv("supermarket_sales.csv")
+df_data = pd.read_csv("assets/supermarket_sales.csv")
 df_data["Date"] = pd.to_datetime(df_data["Date"])
 
 
