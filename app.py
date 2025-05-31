@@ -28,7 +28,7 @@ app.layout = html.Div(
         dbc.Row([
             dbc.Col([
                 dbc.Card([
-                    html.H5("ASIMOV", style={"font-family": "Georgia", "font-size": "40px"}),
+                    html.H5("Supermarket Analysis", style={"font-family": "Georgia", "font-size": "40px"}),
                     html.Hr(),
                     html.H5("Cidades"),
                     dcc.Checklist(cities,
